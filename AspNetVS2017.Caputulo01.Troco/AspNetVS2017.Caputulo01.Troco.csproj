@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BCEFABD4-15C4-4073-8836-47AF37C0BA9E}</ProjectGuid>
+    <ProjectGuid>{6DF3C14F-3321-4B64-97A5-87F570CF357C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AspNetVS2017_Capitulo01_Variaveis</RootNamespace>
-    <AssemblyName>AspNetVS2017-Capitulo01-Variaveis</AssemblyName>
+    <RootNamespace>AspNetVS2017.Caputulo01.Troco</RootNamespace>
+    <AssemblyName>AspNetVS2017.Caputulo01.Troco</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,14 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VariaveisForm.cs">
+    <Compile Include="TrocoForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VariaveisForm.Designer.cs">
-      <DependentUpon>VariaveisForm.cs</DependentUpon>
+    <Compile Include="TrocoForm.Designer.cs">
+      <DependentUpon>TrocoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,8 +62,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="VariaveisForm.resx">
-      <DependentUpon>VariaveisForm.cs</DependentUpon>
+    <EmbeddedResource Include="TrocoForm.resx">
+      <DependentUpon>TrocoForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
