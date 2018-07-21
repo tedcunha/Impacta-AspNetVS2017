@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oficina", "Oficina", "{F77A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Dominio", "Oficina.Dominio\Oficina.Dominio.csproj", "{5622463E-150C-4853-9831-FA96553B19F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Repositorio.SistemaDeArquivos", "Oficina.Repositorio.SistemaDeArquivos\Oficina.Repositorio.SistemaDeArquivos.csproj", "{99C730E4-CCB3-42A4-BDEE-C217147F4211}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,12 +55,17 @@ Global
 		{5622463E-150C-4853-9831-FA96553B19F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5622463E-150C-4853-9831-FA96553B19F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5622463E-150C-4853-9831-FA96553B19F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C730E4-CCB3-42A4-BDEE-C217147F4211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C730E4-CCB3-42A4-BDEE-C217147F4211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C730E4-CCB3-42A4-BDEE-C217147F4211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C730E4-CCB3-42A4-BDEE-C217147F4211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5622463E-150C-4853-9831-FA96553B19F9} = {F77A32CB-BE09-4C50-B7B0-23302E9B08EB}
+		{99C730E4-CCB3-42A4-BDEE-C217147F4211} = {F77A32CB-BE09-4C50-B7B0-23302E9B08EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8B18437-C6B2-4D7B-9358-F715ECD25E87}

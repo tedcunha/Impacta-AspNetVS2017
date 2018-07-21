@@ -12,8 +12,8 @@ namespace Oficina.Dominio
         public string Placa { get; set; }
         public Modelo Modelo { get; set; }
         public Cor Cor { get; set; }
-        public int Combustivel { get; set; }
-        public int Cambio { get; set; }
+        public Combustivel Combustivel { get; set; }
+        public Cambio Cambio { get; set; }
         public int Ano { get; set; }
         public string Obs { get; set; }
     }
