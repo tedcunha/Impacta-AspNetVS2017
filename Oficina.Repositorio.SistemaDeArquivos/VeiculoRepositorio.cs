@@ -18,8 +18,8 @@ namespace Oficina.Repositorio.SistemaDeArquivos
 
         public VeiculoRepositorio()
         {
-            string _caminhoArquivo = ConfigurationManager.AppSettings["caminhoArquivoModelo"];
-             _arquivoXML = XDocument.Load(_caminhoArquivo);
+            _caminhoArquivo = ConfigurationManager.AppSettings["caminhoArquivoVeiculo"];
+            _arquivoXML = XDocument.Load(_caminhoArquivo);
         }
 
         public void Inserir(Veiculo veiculo)

@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Repositorio.Sistema
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Repositorio.SistemaDeArquivosTests", "Oficina.Repositorio.SistemaDeArquivosTests\Oficina.Repositorio.SistemaDeArquivosTests.csproj", "{49FD5402-4834-4E66-9EF5-0FB9CAC108F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.WebPages", "Oficina.WebPages\Oficina.WebPages.csproj", "{EE19C305-DC9C-4C35-ACE1-9AE2A1BD9CD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{49FD5402-4834-4E66-9EF5-0FB9CAC108F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49FD5402-4834-4E66-9EF5-0FB9CAC108F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49FD5402-4834-4E66-9EF5-0FB9CAC108F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE19C305-DC9C-4C35-ACE1-9AE2A1BD9CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE19C305-DC9C-4C35-ACE1-9AE2A1BD9CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE19C305-DC9C-4C35-ACE1-9AE2A1BD9CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE19C305-DC9C-4C35-ACE1-9AE2A1BD9CD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{5622463E-150C-4853-9831-FA96553B19F9} = {F77A32CB-BE09-4C50-B7B0-23302E9B08EB}
 		{99C730E4-CCB3-42A4-BDEE-C217147F4211} = {F77A32CB-BE09-4C50-B7B0-23302E9B08EB}
 		{49FD5402-4834-4E66-9EF5-0FB9CAC108F6} = {F77A32CB-BE09-4C50-B7B0-23302E9B08EB}
+		{EE19C305-DC9C-4C35-ACE1-9AE2A1BD9CD4} = {F77A32CB-BE09-4C50-B7B0-23302E9B08EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8B18437-C6B2-4D7B-9358-F715ECD25E87}

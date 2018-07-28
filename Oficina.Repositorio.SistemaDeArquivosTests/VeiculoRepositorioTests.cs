@@ -15,10 +15,9 @@ namespace Oficina.Repositorio.SistemaDeArquivos.Tests
         [TestMethod()]
         public void InserirTeste()
         {
-            var repositorio = new VeiculoRepositorio();
             var veiculo = new Veiculo();
 
-            veiculo.Id = 1;
+            //veiculo.Id = 1;
             veiculo.Ano = 2018;
             veiculo.Cambio = Cambio.Altomatico;
             veiculo.Combustivel = Combustivel.Flex;
@@ -26,7 +25,8 @@ namespace Oficina.Repositorio.SistemaDeArquivos.Tests
             veiculo.Modelo = new ModeloRepositorio().Selecionar(3);
             veiculo.Obs = "teste de inserir veiuclo";
             veiculo.Placa = "JPP-2861";
-            //Assert.Fail();
+
+            new VeiculoRepositorio().Inserir(veiculo);
         }
     }
 }

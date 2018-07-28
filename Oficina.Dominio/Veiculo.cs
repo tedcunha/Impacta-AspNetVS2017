@@ -8,7 +8,12 @@ namespace Oficina.Dominio
 {
     public class Veiculo
     {
-        public int Id { get; set; }
+        //public Veiculo()
+        //{
+        //    Id = Guid.NewGuid();
+        //}
+
+        public Guid Id { get; set; } = Guid.NewGuid();
         public string Placa { get; set; }
         public Modelo Modelo { get; set; }
         public Cor Cor { get; set; }
