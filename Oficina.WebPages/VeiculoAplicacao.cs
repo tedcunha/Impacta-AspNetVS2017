@@ -22,6 +22,11 @@ namespace Oficina.WebPages
         public List<Combustivel> Combustiveis { get; set; }
         public List<Cambio> Cambios { get; set; }
 
+        public VeiculoAplicacao()
+        {
+            PopulaControles();
+        }
+
         private void PopulaControles()
         {
             Marcas = _marcaRepositorio.SelecionarTodos();
