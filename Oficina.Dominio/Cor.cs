@@ -5,5 +5,16 @@
     {
         public int Id { get; set; }
         public string Descricao { get; set; }
+
+        public Cor()
+        {
+        }
+
+        public Cor(int id,string descricao)
+        {
+            this.Id = id;
+            this.Descricao = descricao;
+        }
+
     }
 }
